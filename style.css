@@ -1,0 +1,226 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+ 
+
+body {
+
+    font-family: 'Mulish', sans-serif;
+
+   
+
+}
+
+
+
+ 
+
+:root {
+
+    --primary-bg: #ffffff;
+
+    --secondary-bg: #1c6b1a;
+
+    --tertiary-bg: #0d5208;
+
+    --first-div-bg: #1c6b1a;
+
+    --text-color: #000;
+
+    --content-color: #fff;
+
+}
+
+
+ 
+
+header {
+
+    background-color: var(--primary-bg);
+
+    height: 8rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+ 
+
+header h1 {
+
+    color: var(--text-color);
+
+    font-size: 2.5rem;
+
+}
+
+body {
+
+    background-color: #eaff00;
+
+}
+
+.primeira {
+
+    background-color: var(--first-div-bg);
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin: 2rem 0;
+
+    padding: 1rem;
+
+    border-radius: 10px;
+
+}
+
+
+ 
+
+.primeira img {
+
+    width: 15rem;
+
+    height: auto;
+
+    border-radius: 10px;
+
+}
+
+
+ 
+
+.primeira p {
+
+    max-width: 60%;
+
+    color: var(--primary-bg);
+
+    font-size: 1.2rem;
+
+    margin-right: 2rem;
+
+}
+
+
+ 
+
+.segunda {
+
+    background-color: var(--secondary-bg);
+
+    height: 25rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: 4rem 0;
+
+    gap: 2rem;
+
+    padding: 1rem;
+
+    border-radius: 10px;
+
+}
+
+
+ 
+
+.segunda img {
+
+    width: 12rem;
+
+    height: 12rem;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+}
+
+
+ 
+
+.segunda p {
+
+    max-width: 40%;
+
+    font-size: 1.2rem;
+
+    color: var(--content-color);
+
+}
+
+
+ 
+
+.terceira {
+
+    background-color: var(--tertiary-bg);
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 2rem;
+
+    margin-bottom: 4rem;
+
+    padding: 1rem;
+
+    border-radius: 10px;
+
+}
+
+
+ 
+
+.terceira img {
+
+
+ 
+
+    width: 12rem;
+
+    height: 12rem;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+   
+
+}
+
+
+
+ 
+
+.terceira {
+
+    margin-top: 4rem;
+
+}
